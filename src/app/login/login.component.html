@@ -1,0 +1,43 @@
+<div class="page-title">
+    <h1>Admin area demo</h1>
+</div>
+<div>
+<div class="title">
+    <strong>Welcome, please sign in!</strong>
+<br><br>
+</div>
+</div>
+<div>
+  <form action="" method="get" class="form-example"></form>
+</div>
+<div class="form-fields">
+<div class="inputs">
+  <label for="email">Email: </label>
+  <input class="email" value="admin@yourstore.com"  autofocus="autofocus" data-val="true" data-val-email="Wrong email" data-val-required="Please enter your email" type="email" name="Email" id="Email" required>
+  <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+</div>
+
+<div class="inputs">
+  <label for="password">Password: </label>
+  <input class="password" value="admin"  autofocus="autofocus" data-val="true" data-val-email="Wrong password" data-val-required="min 5 digit" type="password" name="password" id="password" required>
+  <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+</div>
+</div>
+<form method="post" autocomplete="off" action="/login?returnurl=%2Fadmin%2F" novalidate="novalidate">
+  <div class="form-fields">
+    <div class="inputs reversed">
+      <input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" value="true">
+      <label for="RememberMe">Remember me?</label>
+     <div class="buttons">
+      <button type="button" class="btn btn-primary" ><a routerLink="/home" style="color:whitesmoke">LOG IN</a></button>
+    </div>
+    <h2>Defaults for admin area</h2>
+  </div>
+
+  <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EoKK8bdbeVGtbyUmFkZjVUwZ00sDFJENvUIeDpcktI8NPRpuWOhYfqBLxy0aejkH8GgmG6YtSPouwnzaJ6p6ygIZUdS7eGjOBMkqfyMe2ZDDeWVIrjKTVAirjjA0-VlJMMb8kofNvXg9d7nlPU3tTs"><input name="RememberMe" type="hidden" value="false">
+</div>
+</form>
+<hr>
+<div class="topic-block-title1">
+     <p>Admin email: admin@yourstore.com <br>Admin password: admin </p>
+</div>

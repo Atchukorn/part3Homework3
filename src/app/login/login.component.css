@@ -1,0 +1,44 @@
+.page-title{
+  min-height: 50px;
+  margin: 0 0 25px;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 10px;
+  text-align: center;
+}
+.page-title h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.title{
+  text-align:center;
+  font-size: 1.2rem;
+}
+.inputs {
+  position: relative;
+  margin: 0 0 15px;
+  text-align: center;
+  white-space: nowrap; /* ทำให้เกิดพื้นที่ว่างสีขาวระหว่าง inputs */
+  color: #444
+}
+
+
+.form-fields {
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+  background-color: #f9f9f9;
+  padding: 10px 5px;
+
+}
+.buttons {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 13px;
+  color: #fff;
+}
+.topic-block-title{
+  padding : 0 30px;
+}
+
+
+
+

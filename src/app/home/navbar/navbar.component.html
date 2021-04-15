@@ -1,0 +1,25 @@
+<div class="topnav">
+  <a class="active" href="#" routerLink="/" ><img src= '/src/assets/img/Logo.jpg' ></a>
+  <a href="#" routerLink="/home" >nopCommerce</a>
+  <mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+     <mat-icon>menu</mat-icon>
+   </button>
+  </mat-toolbar>
+  <div class="topnav-right">
+    <a href="#" routerLink="/john Smith" >John Smith</a>
+    <a href="#" routerLink="/logout" >Logout</a>
+    <a class="nav-link" href="#" data-toggle="dropdown">
+     <img src='/src/assets/img/cogwheel45.png'>
+      <!-- <img src='/src/assets/img/cogwheel45.png' crossorigin='anonymous'> -->
+      <i class='fas fa-cog' style='font-size:24px'></i></a>
+  </div>
+</div>
+<div class= "container">
+   <div class="main-header1">
+    <app-panel></app-panel>
+   </div>
+   <div class= "menu">
+     <app-menu></app-menu>
+   </div>
+</div>
